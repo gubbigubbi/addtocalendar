@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition: background-color 0.5s ease;
+  padding: 7px 25px;
+  border-radius: 2px; }
+  .button, .button:active, .button.active, .button:hover, .button:focus, .button.focus {
+    text-decoration: none; }
+
+.button__add-to {
+  color: #fff;
+  background-color: #4281f4;
+  border-color: transparent; }
+  .button__add-to:focus, .button__add-to.focus {
+    color: #fff;
+    background-color: #1261f1;
+    border-color: transparent; }
+  .button__add-to:hover {
+    color: #fff;
+    background-color: #1261f1;
+    border-color: transparent; }
+
+/*# sourceMappingURL=add-to-style.css.map */
